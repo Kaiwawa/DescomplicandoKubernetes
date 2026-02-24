@@ -10,3 +10,6 @@
 - Managing our first pod
 - Creating pods with YAML
 - Dry-run + yaml
+
+### Day 2
+
