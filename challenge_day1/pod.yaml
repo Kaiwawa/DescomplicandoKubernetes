@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    run: meuprimeirocluster
+  name: hmg-giropops-desafio
+spec:
+  containers:
+  - image: nginx
+    name: nginx-desafio
+    ports:
+    - containerPort: 80
+    resources: {}
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
+status: {}
