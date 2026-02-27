@@ -1,0 +1,23 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  labels:
+    run: stribus
+    aula: day2
+  name: stribus
+spec:
+  containers:
+  - image: ubuntu
+    name: ubuntu
+    resources:
+      limits:
+        cpu: "1.5"
+        memory: "128Mi"
+      requests:
+        cpu: "0.3"
+        memory: "32Mi"
+    args:
+    - sleep
+    - "600"
+  dnsPolicy: ClusterFirst
+  restartPolicy: Always
