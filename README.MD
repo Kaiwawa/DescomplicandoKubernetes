@@ -12,4 +12,7 @@
 - Dry-run + yaml
 
 ### Day 2
+- Getting into a container
+- Creating a multi-container pod
+- Limiting CPU and MEMORY from a container
 
