@@ -16,3 +16,5 @@
 - Creating a multi-container pod
 - Limiting CPU and MEMORY from a container
 - Basic to volumes
+
+### Day 3 
